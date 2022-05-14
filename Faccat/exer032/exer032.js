@@ -31,3 +31,15 @@ fimse
 fimse
 Fimalgoritmo*/
  
+let time1=parseint(prompt("Qual o nome do primeiro time: "))
+let gols1=parseInt(prompt('Quantos o time'+time1+'fez'))
+let time2=parseint(prompt("Qual o nome do segundo time: "))
+let gols2=parseInt(prompt('Quantos o time'+time2+'fez'))
+if (gols1>gols2) {
+    alert("O time "+time1+" venceu o jogo")
+}
+else if(gols2>gols1 ){
+    alert("O time "+time2+" venceu o jogo")
+}else{
+    alert('O jogo empatou')
+}
